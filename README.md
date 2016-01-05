@@ -20,6 +20,7 @@ Works only on LINUX. Dependencies are:
 
 # Using
 
+- If you want TTS, you need to create an account for <a href="https://www.ivona.com/ap/signin">ivona</a> && insert the keys in speech2scpi.py -> v = pyvona.create_voice(‘Access Key’, ‘Secret Key’)
 - Connect your SCPI enabled oscilloscope in the HUB
 - python speech2scpi.py
 - Speak (ie: channel 2 on)
