@@ -1,0 +1,56 @@
+0	[<s>]	sil
+1	[</s>]	sil
+2	[channel]	ch ae n ax l
+3	[coupling]	k ah p l ix ng
+4	[AC]	ey s iy
+4	[DC]	d iy s iy
+5	[pause]	p ao z
+5	[resume]	r ix z uw m
+6	[scale]	s k ey l
+7	[force]	f ao r s
+7	[single]	s ih ng g ax l
+8	[autoscale]	ao dx ax s k ey l
+8	[run]	r ah n
+8	[stop]	s t aa p
+8	[clear]	k l ih r
+9	[on]	aa n
+9	[off]	ao f
+10	[one]	w ah n
+10	[two]	t uw
+10	[three]	th r iy
+10	[four]	f ao r
+10	[five]	f ay v
+10	[six]	s ih k s
+10	[seven]	s eh v ax n
+10	[eight]	ey t
+10	[nine]	n ay n
+11	[ten]	t eh n
+11	[eleven]	ix l eh v ax n
+11	[twelve]	t w eh l v
+11	[thirteen]	th er t iy n
+11	[fourteen]	f ao r t iy n
+11	[fifteen]	f ix f t iy n
+11	[sixteen]	s ix k s t iy n
+11	[seventeen]	s eh v ax n t iy n
+11	[nineteen]	n ay n t iy n
+12	[twenty]	t w eh n t iy
+12	[thirty]	th er dx iy
+12	[forty]	f ao r dx iy
+12	[fifty]	f ih f t iy
+12	[sixty]	s ih k s t iy
+12	[seventy]	s eh v ax n t iy
+12	[eighty]	ey dx iy
+12	[ninety]	n ay n t iy
+13	[hundred]	hh ah n d r ax d
+13	[thousand]	th aw z ax n d
+14	[time]	t ay m
+15	[counter]	k aw n t er
+16	[show]	sh ow
+17	[s]	eh s
+17	[u]	y uw
+17	[m]	ax m
+17	[n]	ax n
+18	[v]	v iy
+18	[m]	ax m
+19	[level]	l eh v ax l
+20	[trigger]	t r ih g er

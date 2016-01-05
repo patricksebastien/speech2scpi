@@ -1,0 +1,98 @@
+% NS_B
+<s>		sil
+
+% NS_E
+</s>		sil
+
+% CHANNEL
+channel       ch ae n ax l
+
+% COUPLING
+coupling       k ah p l ix ng
+
+% ACDC
+AC       ey s iy
+DC			d iy s iy
+
+% STATES
+pause	p ao z
+resume	r ix z uw m
+
+% SCALE
+scale	s k ey l
+
+% FORCESINGLE
+force	f ao r s
+single	s ih ng g ax l
+
+% GENERICS
+autoscale	ao dx ax s k ey l
+run			r ah n
+stop		s t aa p
+clear		k l ih r
+
+% BOOLS
+on			aa n
+off			 ao f
+% NUM
+one		w ah n
+two		t uw
+three		th r iy
+four		f ao r
+five		f ay v
+six		s ih k s
+seven		s eh v ax n
+eight		ey t
+nine		n ay n
+
+% EN
+ten		t eh n
+eleven		ix l eh v ax n
+twelve		t w eh l v
+thirteen	th er t iy n
+fourteen	f ao r t iy n
+fifteen		f ix f t iy n
+sixteen		s ix k s t iy n
+seventeen	s eh v ax n t iy n
+nineteen	n ay n t iy n
+
+% TY
+twenty		t w eh n t iy
+thirty		th er dx iy
+forty		f ao r dx iy
+fifty		f ih f t iy
+sixty		s ih k s t iy
+seventy		s eh v ax n t iy
+eighty		ey dx iy
+ninety		n ay n t iy
+
+% HUTH
+hundred		hh ah n d r ax d
+thousand	th aw z ax n d
+
+% TIME
+time	t ay m
+
+% FREQ
+counter k aw n t er
+
+% SHOW
+show	sh ow
+
+% TIMEUNIT
+s	eh s
+u	y uw
+m	ax m
+n	ax n
+
+% VOLTUNIT
+v	v iy
+m	ax m
+
+
+
+% LEVEL
+level	l eh v ax l
+
+% TRIGGER
+trigger	t r ih g er
