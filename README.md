@@ -17,3 +17,9 @@ Works only on LINUX. Dependencies are:
 && ./setup.py build
 && sudo ./setup.py install
 - sudo pip install pyvona
+
+# Using
+
+- Connect your SCPI enabled oscilloscope in the HUB
+- python speech2scpi.py
+- Speak (ie: channel 2 on)
