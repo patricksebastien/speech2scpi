@@ -13,7 +13,7 @@ Works only on LINUX. Dependencies are:
 - pip install cython
 - sudo apt-get install liblo-dev
 - curl -O http://das.nasophon.de/download/pyliblo-0.10.0.tar.gz
-tar xzpf pyliblo-0.10.0.tar.gz
-./setup.py build
-sudo ./setup.py install
+&& tar xzpf pyliblo-0.10.0.tar.gz
+&& ./setup.py build
+&& sudo ./setup.py install
 - sudo pip install pyvona
