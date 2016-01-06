@@ -29,7 +29,7 @@ import tkMessageBox
 import thread
 
 import pyvona
-v = pyvona.create_voice('GDNAIMFKLLI6XPXAMQAQ', 'L31mKbG0ScMJQHN6OeWNlcjOT4chB0AgFEVnq8pS')
+v = pyvona.create_voice('Access Key', 'Secret Key')
 v.speech_rate = "fast"
 
 global results
@@ -66,18 +66,10 @@ def evaluate(calling):
 						send_scpi(scpi_connection, str(text.get("1.0",END)).strip())
 	text.delete("1.0", END)
 
-countersay = 0
-def sayittb(calling):
-	c = str(textb.get("1.0",END)).strip().split(" ")
-	print c
-	if ttsenabled.get():
-		global countersay
-		thread.start_new_thread(tts, (c[countersay],))
-		countersay = countersay + 1
-
 def sayittbreset(calling):
-	global countersay
-	countersay = 0
+	c = str(textb.get("1.0",END)).strip()
+	if ttsenabled.get():
+		thread.start_new_thread(tts, (c,))
 	textb.delete("1.0", END)
 	
 top = Tk()
@@ -91,7 +83,6 @@ textb = Text(top)
 textb.config(font=('helvetica', 24, 'normal')) 
 textb.config(width=4, height=4, background="black", foreground="white")
 textb.insert(INSERT, "")
-textb.bind("<space>", sayittb)
 textb.bind("<Return>", sayittbreset)
 textb.pack(expand=YES, fill=X)
 speechenabled = IntVar()  
@@ -484,7 +475,7 @@ def key(event):
 	else:
 		speechenabled.set(1)
 		
-
+# documentation (pop-up not done at all...)
 def genericpop():
    tkMessageBox.showinfo("Generic", "run\nstop\nautoscale\nclear")
 
@@ -492,7 +483,7 @@ def chpop():
    tkMessageBox.showinfo("Channel", "channel one off/on\ncoupling channel two ac/dc")
        
 def triggerpop():
-   tkMessageBox.showinfo("Channel", "single trigger\nforce trigger\ntrigger level 160 millivolt")
+   tkMessageBox.showinfo("Channel", "single trigger\nforce trigger\ntrigger level 1 v or m")
               
               
        
